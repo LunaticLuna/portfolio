@@ -1,13 +1,147 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background: #E1E3E4;
+  font-family: sans-serif;
+  height:100%;
+  width:100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul{
+  list-style-type: none;
+  margin:0;
+  padding: 0;
 }
+li{
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  
+  /*cursor: pointer;*/
+}
+.container {
+  width:100%;
+  /*max-width: 1200px;*/
+}
+.active {
+  font-weight: bold;
+}
+.row {
+  display:flex;
+  flex-direction: row;
+}
+nav{
+  background: #333333;
+  width:100%;
+  height:50px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  box-shadow: 6px 7px 10px 0 rgba(46, 61, 73, 0.3);
+  
+
+}
+
+.nav {
+  margin-left: auto;
+  margin-right:30px;
+  
+  color: #FFFFFF;
+  /*cursor: pointer;*/
+
+
+}
+.nav li{
+  margin: auto 15px;
+
+}
+.nav-button{
+  font-family: 'Avenir Next','Segoe ui',Ubuntu,sans-serif;
+  font-size:18px;
+
+  color: inherit;
+
+}
+
+.sticky {
+  
+}
+.typewriter{
+  height: 100vh;
+  background: #333333;
+  color: green;
+  font-family: monospace;
+  font-size: 32px;
+  /*font-weight: bold;*/
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.typewriter p{
+  padding-top: 10px;
+  margin:15px;
+  /*margin:auto;*/
+}
+.projects{
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.project {
+  border: 1px solid rgba(0,0,0,.29);
+  border-radius: 20px;
+  width:83.33%;
+  height:200px;
+  margin: 15px;
+  box-shadow: 6px 7px 10px 0 rgba(46, 61, 73, 0.3);
+  background: #FFFFFF;
+}
+.project-card{
+  display: flex;
+
+
+}
+.project-pic img{
+  width:200px;
+  height:200px;
+  border-radius: 20px 0 0 20px;
+}
+.project-content {
+  position: relative;
+  /*border: 1px solid rgba(0,0,0,.29);*/
+  width: 100%;
+  margin: 10px 10px 10px 20px;
+
+}
+.project-links{
+  display:flex;
+  position:absolute;
+  bottom:0;
+  max-width: 100%;
+  
+}
+.icon {
+
+  display: flex;
+  /*flex-direction: row;*/
+  align-items: center;
+  margin:5px 25px 10px 0;
+  color:black;
+  font-weight: bold;
+
+}
+
+
+
+
+
